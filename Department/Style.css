@@ -5,6 +5,7 @@ table, th, td{
 }
 th,td {
     padding: 0rem;
+    position: -webkit-sticky;
 }
 thead,
 tfoot{
@@ -15,12 +16,11 @@ thead {
     top: 0;
     border-bottom: 5px solid #097730;
 }
-
 body{
-    font: 100%/1.4 system-ui;
+    font: 150%/1.6 system-ui;
     margin: 0;
     padding: 0rem 5rem 5rem;
 }
 tr:nth-child(even){
-    background-color: darkgray;
+    background-color: green
 }
