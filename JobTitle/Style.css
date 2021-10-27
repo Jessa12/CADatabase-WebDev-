@@ -1,9 +1,26 @@
 table, th, td{
-    border: 1px solid black;
-        border-collapse: collapse;
-        text-align: center;
-    }
-    tr:nth-child(even){
-        background-color: darkgray;
-    }
-    
+    border: 3px solid rgb(128, 109, 0);
+    border-collapse: collapse;
+    text-align: center;
+}
+th,td {
+    padding: 0rem;
+    position: -webkit-sticky;
+}
+thead,
+tfoot{
+background: #fff;
+}
+thead {
+    position: sticky;
+    top: 0;
+    border-bottom: 5px solid #677709;
+}
+body{
+    font: 150%/1.6 system-ui;
+    margin: 0;
+    padding: 0rem 5rem 5rem;
+}
+tr:nth-child(even){
+    background-color: rgb(126, 128, 0)
+}
