@@ -2,6 +2,7 @@ table, th, td{
   border: 3px solid rgb(0, 26, 255);
   border-collapse: collapse;
   text-align: center;
+
 }
 th,td {
   padding: 0rem;
